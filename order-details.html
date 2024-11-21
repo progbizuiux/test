@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Aswad - e-commerce</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/logo/favicon.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/locomotive-scroll.css" />
+    <link rel="stylesheet" href="assets/css/styleguide.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+
+
+    <div>
+        <div>
+            <main>
+                <div class="overlay" data-overlay=""></div>
+
+                <!--------- Header Nav section ------------>
+                <header>
+                    <div class="header-top">
+                        <div class="container">
+                            <div class="header-alert-news text-center">
+                                <p>Get Upto <b>40%</b> Off on first order sitewise</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-main">
+                        <nav class="navbar navbar-expand-md">
+                            <div class="container">
+                                <a class="navbar-brand" href="#">
+                                    <img src="/assets/images/logo/aswad-blacklogo.svg" alt="aswad" width="55"
+                                        height="60" />
+                                </a>
+
+                                <div class="desktop-menu-category-list" id="navbarSupportedContent">
+                                    <div class="desktop-navigation-menu">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">About Us</a>
+                                            </li>
+                                            <li class="nav-item menu-category">
+                                                <a class="nav-link menu-title" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Categories
+                                                </a>
+                                                <div class="dropdown-panel">
+                                                    <ul class="dropdown-list">
+                                                        <li class="dropdown-item">
+                                                            <a href="#">Shirt</a>
+                                                        </li>
+                                                        <li class="dropdown-item">
+                                                            <a href="#">Shorts & Jeans</a>
+                                                        </li>
+                                                        <li class="dropdown-item">
+                                                            <a href="#">Safety Shoes</a>
+                                                        </li>
+
+                                                        <li class="dropdown-item">
+                                                            <a href="#">Wallet</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Blog</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <form action="#" method="get" class="header-search-wrapper position-relative">
+                                        <input type="search" class="form-control" name="q" id="q"
+                                            placeholder="Search for products..." required="" />
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M21.7992 20.2039L17.347 15.7499C18.6819 14.0103 19.3052 11.8281 19.0903 9.64594C18.8755 7.46377 17.8386 5.44503 16.19 3.99924C14.5415 2.55344 12.4047 1.78886 10.2131 1.86058C8.02158 1.93231 5.93937 2.83497 4.38888 4.38546C2.83839 5.93595 1.93573 8.01817 1.864 10.2097C1.79228 12.4013 2.55686 14.538 4.00265 16.1866C5.44845 17.8352 7.46719 18.872 9.64936 19.0869C11.8315 19.3018 14.0137 18.6785 15.7533 17.3436L20.2092 21.8005C20.3139 21.9051 20.4381 21.9882 20.5748 22.0448C20.7116 22.1014 20.8581 22.1306 21.0061 22.1306C21.1541 22.1306 21.3006 22.1014 21.4374 22.0448C21.5741 21.9882 21.6983 21.9051 21.803 21.8005C21.9076 21.6958 21.9906 21.5716 22.0473 21.4349C22.1039 21.2982 22.1331 21.1516 22.1331 21.0036C22.1331 20.8556 22.1039 20.7091 22.0473 20.5724C21.9906 20.4356 21.9076 20.3114 21.803 20.2067L21.7992 20.2039ZM4.12829 10.4999C4.12829 9.23902 4.50218 8.00647 5.20267 6.95811C5.90316 5.90975 6.8988 5.09265 8.06368 4.61014C9.22856 4.12763 10.5104 4.00138 11.747 4.24737C12.9836 4.49335 14.1195 5.10051 15.0111 5.99207C15.9027 6.88363 16.5098 8.01954 16.7558 9.25617C17.0018 10.4928 16.8755 11.7746 16.393 12.9395C15.9105 14.1044 15.0934 15.1 14.045 15.8005C12.9967 16.501 11.7641 16.8749 10.5033 16.8749C8.81307 16.8731 7.19257 16.2009 5.9974 15.0058C4.80223 13.8106 4.13003 12.1901 4.12829 10.4999Z"
+                                                    fill="black" fill-opacity="0.4" />
+                                            </svg>
+                                        </span>
+                                    </form>
+                                    <div class="header-user-actions">
+                                        <button class="action-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M19.2013 14.1032C19.1453 14.6102 18.7183 14.9932 18.2083 14.9932H10.6673C10.1833 14.9932 9.76931 14.6472 9.68331 14.1712L8.74231 8.99316H18.7233C19.0153 8.99316 19.2823 9.11316 19.4743 9.33216C19.6673 9.55116 19.7533 9.83216 19.7153 10.1212L19.2013 14.1032ZM20.9781 8.01116C20.4091 7.36416 19.5881 6.99316 18.7251 6.99316H8.37012C7.91812 5.23816 6.33312 3.99316 4.49612 3.99316H3.00012C2.44712 3.99316 2.00012 4.44016 2.00012 4.99316C2.00012 5.54516 2.44712 5.99316 3.00012 5.99316H4.49612C5.46312 5.99316 6.29112 6.68316 6.46512 7.63416L7.71812 14.5292C7.97612 15.9572 9.21812 16.9932 10.6691 16.9932H18.2101C19.7411 16.9932 21.0221 15.8452 21.1891 14.3412L21.7011 10.3762C21.8111 9.52116 21.5481 8.66016 20.9781 8.01116ZM10.5 17.9929C9.67202 17.9929 9.00002 18.6649 9.00002 19.4929C9.00002 20.3209 9.67202 20.9929 10.5 20.9929C11.328 20.9929 12 20.3209 12 19.4929C12 18.6649 11.328 17.9929 10.5 17.9929ZM16 19.4929C16 18.6649 16.672 17.9929 17.5 17.9929C18.328 17.9929 19 18.6649 19 19.4929C19 20.3209 18.328 20.9929 17.5 20.9929C16.672 20.9929 16 20.3209 16 19.4929Z"
+                                                    fill="black" />
+                                            </svg>
+                                            <span class="count"></span>
+                                        </button>
+
+                                        <button class="action-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M7 17C7 14.051 9.583 13 12 13C14.417 13 17 14.051 17 17C17 20.611 7 20.611 7 17ZM10 9C10 7.897 10.897 7 12 7C13.103 7 14 7.897 14 9C14 10.103 13.103 11 12 11C10.897 11 10 10.103 10 9ZM15.083 11.518C15.647 10.828 16 9.959 16 9C16 6.794 14.206 5 12 5C9.794 5 8 6.794 8 9C8 9.959 8.353 10.828 8.917 11.518C6.494 12.407 5 14.389 5 17C5 18.521 5.849 19.831 7.39 20.687C8.624 21.372 10.261 21.75 12 21.75C15.371 21.75 19 20.264 19 17C19 14.389 17.506 12.407 15.083 11.518Z"
+                                                    fill="black" />
+                                            </svg>
+                                            <span class="count"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mobile-bottom-navigation ms-auto">
+                                    <button class="action-btn" data-mobile-menu-open-btn="" fdprocessedid="put7l">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="16"
+                                            viewBox="0 0 26 16" fill="none">
+                                            <path
+                                                d="M1.8001 0.200195C1.13736 0.200195 0.600098 0.737459 0.600098 1.4002C0.600098 2.06293 1.13736 2.6002 1.8001 2.6002V0.200195ZM24.2001 2.6002C24.8628 2.6002 25.4001 2.06293 25.4001 1.4002C25.4001 0.737459 24.8628 0.200195 24.2001 0.200195V2.6002ZM1.8001 6.6002C1.13736 6.6002 0.600098 7.13748 0.600098 7.8002C0.600098 8.46292 1.13736 9.0002 1.8001 9.0002V6.6002ZM21.0001 9.0002C21.6628 9.0002 22.2001 8.46292 22.2001 7.8002C22.2001 7.13748 21.6628 6.6002 21.0001 6.6002V9.0002ZM1.8001 13.0002C1.13736 13.0002 0.600098 13.5375 0.600098 14.2002C0.600098 14.8629 1.13736 15.4002 1.8001 15.4002V13.0002ZM13.0001 15.4002C13.6628 15.4002 14.2001 14.8629 14.2001 14.2002C14.2001 13.5375 13.6628 13.0002 13.0001 13.0002V15.4002ZM1.8001 2.6002H24.2001V0.200195H1.8001V2.6002ZM1.8001 9.0002H21.0001V6.6002H1.8001V9.0002ZM1.8001 15.4002H13.0001V13.0002H1.8001V15.4002Z"
+                                                fill="#333333" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+                        <div class="menu-top">
+                            <h2 class="menu-title">Menu</h2>
+
+                            <button class="menu-close-btn" data-mobile-menu-close-btn>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path
+                                        d="M16.2882 14.9617C16.4644 15.1379 16.5633 15.3767 16.5633 15.6258C16.5633 15.8749 16.4644 16.1137 16.2882 16.2899C16.1121 16.466 15.8733 16.5649 15.6242 16.5649C15.3751 16.5649 15.1362 16.466 14.9601 16.2899L9.99997 11.3281L5.03825 16.2883C4.86213 16.4644 4.62326 16.5634 4.37418 16.5634C4.12511 16.5634 3.88624 16.4644 3.71012 16.2883C3.534 16.1122 3.43506 15.8733 3.43506 15.6242C3.43506 15.3752 3.534 15.1363 3.71012 14.9602L8.67184 10L3.71168 5.0383C3.53556 4.86218 3.43662 4.62331 3.43662 4.37423C3.43662 4.12516 3.53556 3.88629 3.71168 3.71017C3.8878 3.53405 4.12668 3.43511 4.37575 3.43511C4.62482 3.43511 4.86369 3.53405 5.03981 3.71017L9.99997 8.67189L14.9617 3.70939C15.1378 3.53327 15.3767 3.43433 15.6257 3.43433C15.8748 3.43433 16.1137 3.53327 16.2898 3.70939C16.4659 3.88551 16.5649 4.12438 16.5649 4.37345C16.5649 4.62252 16.4659 4.86139 16.2898 5.03751L11.3281 10L16.2882 14.9617Z"
+                                        fill="black" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <ul class="mobile-menu-category-list list-unstyled">
+                            <li class="menu-category">
+                                <a href="#" class="menu-title">Home</a>
+                            </li>
+
+                            <li class="menu-category">
+                                <button class="accordion-menu" data-accordion-btn>
+                                    <p class="menu-title">Men's</p>
+
+                                    <div>
+                                        <i class="ri-add-fill add-icon md hydrated"></i>
+                                        <i class="ri-subtract-fill remove-icon md hydrated"></i>
+
+                                    </div>
+                                </button>
+
+                                <ul class="submenu-category-list" data-accordion>
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Shirt</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Shorts & Jeans</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Safety Shoes</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Wallet</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-category">
+                                <button class="accordion-menu" data-accordion-btn>
+                                    <p class="menu-title">Women's</p>
+
+                                    <div>
+                                        <i class="ri-add-fill add-icon md hydrated"></i>
+                                        <i class="ri-subtract-fill remove-icon md hydrated"></i>
+
+                                    </div>
+                                </button>
+
+                                <ul class="submenu-category-list" data-accordion>
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Dress & Frock</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Earrings</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Necklace</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Makeup Kit</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-category">
+                                <button class="accordion-menu" data-accordion-btn>
+                                    <p class="menu-title">Jewelry</p>
+
+                                    <div>
+                                        <i class="ri-add-fill add-icon md hydrated"></i>
+                                        <i class="ri-subtract-fill remove-icon md hydrated"></i>
+
+                                    </div>
+                                </button>
+
+                                <ul class="submenu-category-list" data-accordion>
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Earrings</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Couple Rings</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Necklace</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Bracelets</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-category">
+                                <button class="accordion-menu" data-accordion-btn>
+                                    <p class="menu-title">Perfume</p>
+
+                                    <div>
+                                        <i class="ri-add-fill add-icon md hydrated"></i>
+                                        <i class="ri-subtract-fill remove-icon md hydrated"></i>
+
+                                    </div>
+                                </button>
+
+                                <ul class="submenu-category-list" data-accordion>
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Clothes Perfume</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Deodorant</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Flower Fragrance</a>
+                                    </li>
+
+                                    <li class="submenu-category">
+                                        <a href="#" class="submenu-title">Air Freshener</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-category">
+                                <a href="#" class="menu-title">Blog</a>
+                            </li>
+
+                            <li class="menu-category">
+                                <a href="#" class="menu-title">Hot Offers</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </header>
+                <!-- Breadcrumb -->
+                <div class="breadcrumb_wrapper">
+                    <div class="container">
+                        <nav aria-label="breadcrumb" class="product-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item ">Cart</li>
+                                <li class="breadcrumb-item active">Checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+
+
+                <section class="p-mr-pt">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 px-2 px-md-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class=mb-lg-0 d-flex align-items-center gap-4">
+                                        <h3 class="mb-0 ">
+                                            Order details
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-center mt-4 mt-md-5">
+
+                            <div class="col-12 col-md-10">
+                                <div class="row ">
+                                    <div class="col-12">
+                                        <div class="d-flex justify-content-between flex-column flex-lg-row">
+                                            <div class=" d-flex gap-0 gap-md-2 flex-column flex-md-row">
+                                                <div class="fw-medium invoice-title fs-sm-14">Order placed on 24th Oct
+                                                    2024</div> <span class="invoice-title d-none d-md-block">|</span>
+                                                <div class="fw-medium invoice-title fs-sm-14">Order No: 094029404040
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="text-decoration-underline mt-3 mt-md-0 btn-link text-primary fw-medium">Invoice</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-4 border-rounder-radius mt-4 ">
+
+                                    <div class="row ">
+                                        <div class="col-12 col-md-6 col-lg-6 order-1 order-md-0">
+                                            <div class="d-flex">
+                                               <img src="/assets/images/products/product2.png" alt="Ecommerce" class="icon-shape icon-xxl">
+                                               <div class="ms-3">
+                                                  <!-- title -->
+                                                  <a href="../pages/shop-single.html" class="text-inherit">
+                                                     <p class="mb-0 text-dark cart-title"> Haldiram's Sev Bhujia</p>
+                                                  </a>
+                                                  <span><small class="text-muted">Quantity : 5 ml</small></span>
+                                                  <!-- text -->
+                                                  <div class="d-flex align-items-center">
+                                                   <span class=" mb-0 mt-0 mt-md-3 Pro-price fw-bolder fs-1">$240</span>
+                                                 </div>
+                                                 
+                                               </div>
+                                            </div>
+                                            <div class="d-flex mt-3">
+                                                <img src="/assets/images/products/product3.png" alt="Ecommerce" class="icon-shape icon-xxl">
+                                                <div class="ms-3">
+                                                   <!-- title -->
+                                                   <a href="../pages/shop-single.html" class="text-inherit">
+                                                      <p class="mb-0 text-dark cart-title"> Haldiram's Sev Bhujia</p>
+                                                   </a>
+                                                   <span><small class="text-muted">Quantity : 5 ml</small></span>
+                                                   <!-- text -->
+                                                   <div class="d-flex align-items-center">
+                                                    <span class="  mb-0 mt-0 mt-md-3 Pro-price fw-bolder fs-1">$240</span>
+                                                  </div>
+                                                  
+                                                </div>
+                                             </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-5 text-center text-md-start mt-3 mb-3 mb-md-0 mt-md-0 order-0 order-md-1">
+                                            <div class="fw-bold text-success fs-26 fs-sm-14 lh-base">Arriving On Tuesday 20th October by 11am</div>
+                                           
+                                                <div class="d-flex justify-content-between gap-4 flex-row flex-md-column mt-3">
+                                                    <button type="button" class=" checkout-btn rounder-radius-62 h-75 w-50 fs-sm-14"
+                                                       >Track Order</button>
+                                                    <button type="button" class="checkout-btn-outline rounder-radius-62 h-75 w-50 fs-sm-14"
+                                                       >Cancel Order</button>
+                                                </div>
+                                           
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="card mb-4 border-rounder-radius mt-4 ">
+
+                                    <div class="row justify-content-between">
+                                        <!-- Shipping Address -->
+                                        <div class="col-md-3">
+                                            <div class="mb-4 cart-title fs-sm-16">Shipping Address</div>
+                                            <div class="address-details">
+                                                <p class="mb-1 fw-normal fs-16  fs-sm-14">John Doe1234 Elm <br>
+                                                    StreetApt 56BSpringfield, <br>IL 62704USA</p>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- Payment Method -->
+                                        <div class="col-md-4">
+                                            <div class="mb-4 cart-title fs-sm-16">Payment Method</div>
+                                            <div class="payment-details">
+                                                <p class="fw-normal">Cash On Delivery</p>
+                                            </div>
+                                        </div>
+
+                                        <!-- Order Summary Table -->
+                                        <div class="col-md-4">
+                                            <div class="mb-4 cart-title fs-sm-16">Order Summary</div>
+                                            <table class="table table-borderless order-details">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Item Total :</td>
+                                                        <td>$120</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Shipping :</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>COD Fee:</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Total :</td>
+                                                        <td>$120</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Coupon Applied :</td>
+                                                        <td class="text-success fw-medium">-20$</td>
+                                                    </tr>
+                                                    <tr class="grand-total total-row">
+                                                        <td>Grand Total :</td>
+                                                        <td>$100</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+
+
+            </main>
+        </div>
+    </div>
+
+
+
+    <!-- Jquery js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
+
+    <script src="assets/js/locomotive-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.6.1/dist/lazyload.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
